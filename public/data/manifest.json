@@ -17,7 +17,7 @@
     "lines": 15687,
     "paragraphs": 1054,
     "paragraphMarkers": 1047,
-    "translatedParagraphs": 841,
+    "translatedParagraphs": 941,
     "lineNumberGaps": {
       "9": [
         458,
@@ -200,7 +200,7 @@
       "path": "data/books/20.json",
       "lineCount": 503,
       "paragraphCount": 31,
-      "translationCount": 0,
+      "translationCount": 31,
       "lineNumberGaps": []
     },
     {
@@ -208,7 +208,7 @@
       "path": "data/books/21.json",
       "lineCount": 611,
       "paragraphCount": 37,
-      "translationCount": 0,
+      "translationCount": 37,
       "lineNumberGaps": []
     },
     {
@@ -216,7 +216,7 @@
       "path": "data/books/22.json",
       "lineCount": 515,
       "paragraphCount": 32,
-      "translationCount": 0,
+      "translationCount": 32,
       "lineNumberGaps": []
     },
     {
