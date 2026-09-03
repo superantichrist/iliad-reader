@@ -335,6 +335,14 @@ def validate(books, para_marker_count, source_hash, expected_hash):
             for note in paragraph["notes"]:
                 if not isinstance(note, dict) or not note.get("text"):
                     errors.append("Malformed note in {}".format(paragraph["id"]))
+                    continue
+                note_line = note.get("line")
+                if note_line is not None and note_line not in paragraph["lineRefs"]:
+                    errors.append(
+                        "Note line outside paragraph {}: {}".format(
+                            paragraph["id"], note_line
+                        )
+                    )
 
     for book in books:
         if book["translationCount"] not in (0, book["paragraphCount"]):
