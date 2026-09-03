@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "edition": "D. B. Monro and T. W. Allen (eds.), Homeri Opera, Editio Tertia, Volumes 1–2, Oxford, 1908–1920",
+    "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2",
+    "sourceCommit": "7b8a2c9636bd90c7684c00624a392d3058ae9d22",
+    "sourceSha256": "15ab2da1201d6160db741e7806f12667f692d47e5884e216c3bd12b08efa4ce8",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sections": {
+    "glossary": {
+      "title": "핵심 용어",
+      "description": "번역만으로 평평해지기 쉬운 호메로스의 핵심어를 원문 위치와 함께 풉니다. 항목은 번역 진행과 함께 계속 보강합니다.",
+      "entries": [
+        {
+          "id": "glossary-menis",
+          "nameGreek": "μῆνις",
+          "nameKo": "메니스",
+          "transliteration": "mēnis",
+          "kind": "서사시 핵심어",
+          "summary": "『일리아스』의 첫 단어. 단순한 분노보다 오래 지속되고 파괴적인, 거의 신적인 진노를 가리킨다.",
+          "details": "아킬레우스의 진노가 아카이오이에게 가져오는 재앙이 작품 전체의 출발점이다. 번역에서는 문맥에 따라 ‘진노’로 옮긴다.",
+          "refs": [
+            {
+              "book": 1,
+              "line": 1,
+              "label": "첫 행"
+            }
+          ],
+          "sources": [
+            {
+              "label": "Perseus 본문",
+              "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1/"
+            }
+          ]
+        }
+      ]
+    },
+    "people": {
+      "title": "인물",
+      "description": "신과 인간, 혈통과 진영을 본문 출전과 함께 정리합니다. 번역 진행과 함께 인물표를 확장합니다.",
+      "entries": [
+        {
+          "id": "person-achilles",
+          "nameGreek": "Ἀχιλλεύς",
+          "nameKo": "아킬레우스",
+          "transliteration": "Achilleus",
+          "role": "펠레우스의 아들 · 뮈르미도네스의 지휘자",
+          "summary": "아카이오이 최고의 전사. 아가멤논에게 명예를 침해당한 뒤 전투에서 물러나며, 그의 진노가 서사의 축을 이룬다.",
+          "refs": [
+            {
+              "book": 1,
+              "line": 1,
+              "label": "노래의 주제"
+            }
+          ],
+          "sources": []
+        }
+      ]
+    },
+    "places": {
+      "title": "장소",
+      "description": "전장과 도시, 고향과 신들의 공간을 본문 출전으로 연결합니다. 번역 진행과 함께 지명을 확장합니다.",
+      "entries": [
+        {
+          "id": "place-troy",
+          "nameGreek": "Τροίη / Ἴλιος",
+          "nameKo": "트로이아 / 일리오스",
+          "transliteration": "Troiē / Ilios",
+          "kind": "도시",
+          "summary": "프리아모스가 다스리는 성곽도시이자 전쟁의 목표. 두 이름은 시 안에서 함께 쓰인다.",
+          "refs": [
+            {
+              "book": 1,
+              "line": 19,
+              "label": "프리아모스의 도시"
+            }
+          ],
+          "sources": []
+        }
+      ]
+    },
+    "textualNotes": {
+      "title": "본문과 판본",
+      "description": "원전의 판본, 행 번호, 디지털 전사에서 독자가 알아야 할 사항을 기록합니다.",
+      "entries": [
+        {
+          "id": "text-edition",
+          "title": "Monro–Allen 그리스어 본문",
+          "scope": "전 24권",
+          "status": "고정 원문",
+          "summary": "D. B. Monro와 T. W. Allen이 편집한 Oxford 『Homeri Opera』 제3판의 Perseus TEI 전사를 사용한다.",
+          "details": "저장소 커밋과 원문 파일의 SHA-256을 함께 고정하며, 빌드 때 24권·15,687행의 일치 여부를 검사한다. XML에 없는 행 번호는 임의로 메우지 않고 데이터에 결락으로 남긴다.",
+          "refs": [
+            {
+              "book": 1,
+              "line": 1,
+              "label": "본문 시작"
+            }
+          ],
+          "sources": [
+            {
+              "label": "PerseusDL canonical-greekLit",
+              "url": "https://github.com/PerseusDL/canonical-greekLit"
+            },
+            {
+              "label": "Perseus Catalog",
+              "url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0012.tlg001"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

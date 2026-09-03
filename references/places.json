@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "title": "장소",
+  "description": "전장과 도시, 고향과 신들의 공간을 본문 출전으로 연결합니다. 번역 진행과 함께 지명을 확장합니다.",
+  "entries": [
+    {
+      "id": "place-troy",
+      "nameGreek": "Τροίη / Ἴλιος",
+      "nameKo": "트로이아 / 일리오스",
+      "transliteration": "Troiē / Ilios",
+      "kind": "도시",
+      "summary": "프리아모스가 다스리는 성곽도시이자 전쟁의 목표. 두 이름은 시 안에서 함께 쓰인다.",
+      "refs": [{ "book": 1, "line": 19, "label": "프리아모스의 도시" }],
+      "sources": []
+    }
+  ]
+}

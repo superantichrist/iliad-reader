@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "title": "본문과 판본",
+  "description": "원전의 판본, 행 번호, 디지털 전사에서 독자가 알아야 할 사항을 기록합니다.",
+  "entries": [
+    {
+      "id": "text-edition",
+      "title": "Monro–Allen 그리스어 본문",
+      "scope": "전 24권",
+      "status": "고정 원문",
+      "summary": "D. B. Monro와 T. W. Allen이 편집한 Oxford 『Homeri Opera』 제3판의 Perseus TEI 전사를 사용한다.",
+      "details": "저장소 커밋과 원문 파일의 SHA-256을 함께 고정하며, 빌드 때 24권·15,687행의 일치 여부를 검사한다. XML에 없는 행 번호는 임의로 메우지 않고 데이터에 결락으로 남긴다.",
+      "refs": [{ "book": 1, "line": 1, "label": "본문 시작" }],
+      "sources": [
+        { "label": "PerseusDL canonical-greekLit", "url": "https://github.com/PerseusDL/canonical-greekLit" },
+        { "label": "Perseus Catalog", "url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0012.tlg001" }
+      ]
+    }
+  ]
+}

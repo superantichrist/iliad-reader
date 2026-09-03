@@ -1,0 +1,14 @@
+{
+  "work": "Homer, Iliad",
+  "workTitleGr": "Ἰλιάς",
+  "workTitleKo": "일리아스",
+  "edition": "D. B. Monro and T. W. Allen (eds.), Homeri Opera, Editio Tertia, Volumes 1–2, Oxford, 1908–1920",
+  "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2",
+  "repository": "https://github.com/PerseusDL/canonical-greekLit",
+  "sourceUrl": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/7b8a2c9636bd90c7684c00624a392d3058ae9d22/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml",
+  "sourceCommit": "7b8a2c9636bd90c7684c00624a392d3058ae9d22",
+  "sourceSha256": "15ab2da1201d6160db741e7806f12667f692d47e5884e216c3bd12b08efa4ce8",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "localFile": "sources/raw/iliad-perseus-grc2.xml"
+}

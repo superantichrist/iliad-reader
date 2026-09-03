@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "title": "핵심 용어",
+  "description": "번역만으로 평평해지기 쉬운 호메로스의 핵심어를 원문 위치와 함께 풉니다. 항목은 번역 진행과 함께 계속 보강합니다.",
+  "entries": [
+    {
+      "id": "glossary-menis",
+      "nameGreek": "μῆνις",
+      "nameKo": "메니스",
+      "transliteration": "mēnis",
+      "kind": "서사시 핵심어",
+      "summary": "『일리아스』의 첫 단어. 단순한 분노보다 오래 지속되고 파괴적인, 거의 신적인 진노를 가리킨다.",
+      "details": "아킬레우스의 진노가 아카이오이에게 가져오는 재앙이 작품 전체의 출발점이다. 번역에서는 문맥에 따라 ‘진노’로 옮긴다.",
+      "refs": [{ "book": 1, "line": 1, "label": "첫 행" }],
+      "sources": [{ "label": "Perseus 본문", "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1/" }]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "title": "인물",
+  "description": "신과 인간, 혈통과 진영을 본문 출전과 함께 정리합니다. 번역 진행과 함께 인물표를 확장합니다.",
+  "entries": [
+    {
+      "id": "person-achilles",
+      "nameGreek": "Ἀχιλλεύς",
+      "nameKo": "아킬레우스",
+      "transliteration": "Achilleus",
+      "role": "펠레우스의 아들 · 뮈르미도네스의 지휘자",
+      "summary": "아카이오이 최고의 전사. 아가멤논에게 명예를 침해당한 뒤 전투에서 물러나며, 그의 진노가 서사의 축을 이룬다.",
+      "refs": [{ "book": 1, "line": 1, "label": "노래의 주제" }],
+      "sources": []
+    }
+  ]
+}
